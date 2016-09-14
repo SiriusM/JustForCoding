@@ -65,7 +65,7 @@ public:
 ```
 + 方法二：
 ```
-    class Solution {
+class Solution {
 public:
     int myAtoi(string str) {
         if(str.length()==0)
