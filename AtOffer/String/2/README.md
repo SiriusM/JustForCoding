@@ -64,3 +64,35 @@ public:
 };
 ```
 + 方法二：
+```
+    class Solution {
+public:
+    int myAtoi(string str) {
+        if(str.length()==0)
+            return 0;
+        int i=0;
+        while(i<str.length()&&isspace(str[i]))
+            i++;
+        bool flag=true;
+        long num=0;
+        if(str[i]=='-'||str[i]=='+')
+        {
+            if(str[i]=='-')
+            flag=false;
+            i++;
+        }
+        for(;i<str.length();i++)
+        {
+            if(!isdigit(str[i]))
+                return flag?num:-num;
+            else
+            {
+                num=num*10+str[i]-'0';
+                if(num>INT_MAX)
+                    return flag?INT_MAX:INT_MIN;
+            }
+        }
+        return flag?num:-num;
+    }
+};
+```
