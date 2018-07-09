@@ -9,8 +9,8 @@
 //length为牛客系统规定字符串输出的最大长度，固定为一个常数
 class Solution {
 public:
-	void replaceSpace(char *str,int length) {
-		int count =0;
+    void replaceSpace(char *str,int length) {
+	int count =0;
         for(int i =0;i<length;i++)
         {
             if(str[i]==' ')
@@ -34,6 +34,6 @@ public:
             length--;
             len--;
         }
-	}
+    }
 };
 ```
