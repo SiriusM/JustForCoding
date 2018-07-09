@@ -1,7 +1,7 @@
 # [leetcode](https://leetcode.com/) #
 ### [1.Leetcode题解](./Solutions/) ###
   
-### [2.数据结构](./Data Structure/) ###
+### [2.数据结构](./Data%20Structure/) ###
   + [数组(Array)](./Data%20Structure/1.Array)
   + [字符串(String)](./Data%20Structure/2.String)
   + [链表(List)](./Data%20Structure/3.List)
