@@ -1,4 +1,4 @@
-# [leetcode题解] #
+# leetcode题解 #
 + [1.Two Sum](./Two&nbspSum)
 
 
